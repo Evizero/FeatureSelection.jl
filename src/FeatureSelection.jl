@@ -1,5 +1,9 @@
 module FeatureSelection
 
-# package code goes here
+using StatsBase
+
+export aic
+
+include("measures.jl")
 
 end # module
