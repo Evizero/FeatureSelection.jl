@@ -16,3 +16,4 @@ tyh = [22.42049, 22.42049, 22.03658, 16.12434,
 tn=2
 
 @test round(aic(ty,tyh,tn),1) == 190.8
+@test round(bic(ty,tyh,tn),1) == 195.2

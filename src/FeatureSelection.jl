@@ -2,7 +2,7 @@ module FeatureSelection
 
 using StatsBase
 
-export aic
+export aic, bic
 
 include("measures.jl")
 
